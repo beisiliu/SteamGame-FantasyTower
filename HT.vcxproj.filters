@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_demo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_draw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_sdl2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_sdlrenderer2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_tables.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_widgets.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\StartScreen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\TextureManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\WriteData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\MainScreen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\UsualFunc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\PersonButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\HtScreen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\EnemyAttribute.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\CalCombatKPI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\HomeButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SchoolButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ShopButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\HarvestButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\LogButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\EquipmentToopTip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Weapons.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\HeadEquip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ArmEquip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\bodyEquip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\LegsEquip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\StreamAPIAchievements.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\AchievementsButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\imgui\imconfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_impl_sdl2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_impl_sdlrenderer2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_rectpack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_textedit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_truetype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nlohmann\json.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nlohmann\json_fwd.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StartScreen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TextureManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\setting\Config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WriteData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MainScreen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UsualFunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PersonButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HtScreen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EnemyAttribute.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CalCombatKPI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HomeButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SchoolButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ShopButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HarvestButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LogButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EquipmentToolTip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Weapons.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HeadEquip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ArmEquip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bodyEquip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LegsEquip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamapps.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamappticket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamclient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamcontroller.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamdualsense.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamfriends.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamgamecoordinator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamgameserver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamgameserverstats.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamhtmlsurface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamhttp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteaminput.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteaminventory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteammatchmaking.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteammusic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteammusicremote.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamnetworking.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamnetworkingmessages.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamnetworkingsockets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamnetworkingutils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamparentalsettings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamps3overlayrenderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamremoteplay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamremotestorage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamscreenshots.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamugc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamuser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamuserstats.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamutils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\isteamvideo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\matchmakingtypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\steam_api.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\steam_api_common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\steam_api_flat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\steam_api_internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\steam_gameserver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\steamclientpublic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\steamencryptedappticket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\steamhttpenums.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\steamnetworkingfakeip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\steamnetworkingtypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\steamps3params.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\steamtypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steam\steamuniverse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StreamAPIAchievements.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AchievementsButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="information\版本说明.txt" />
+    <Text Include="steam_appid.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="steam\lib\win64\sdkencryptedappticket64.dll" />
+    <None Include="include\steam\lib\win64\sdkencryptedappticket64.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="include\steam\lib\win64\sdkencryptedappticket64.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="music\01.mp3" />
+  </ItemGroup>
+</Project>

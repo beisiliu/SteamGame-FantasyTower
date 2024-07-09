@@ -1,0 +1,290 @@
+{
+  "StartGame": "开始新游戏",
+  "EndGame": "结束游戏",
+  "Continue": "继续",
+  "Confirm": "确认",
+  "GameFloor": "层:",
+  "Return": "返回",
+  "TextPlayerName": "Hi 伙计，姓名：",
+  "GamePurpose": "游戏目的",
+  "GamePurposeInfor": "谁能花费最少的天数, 爬到HT塔顶？",
+  "MainHint1": "努力爬塔，解锁更多功能",
+  "MainMeum": {
+    "PersonButton": "人物",
+    "HomeButton": "家园",
+    "SchoolButton": "学院",
+    "ShopButton": "商店",
+    "HarvestButton": "采集",
+    "LogButton": "日志",
+    "AchievementsButton": "成就",
+    "ExitButton": "退出",
+    "Tooltip": {
+      "Health": "健康",
+      "Status": "状态",
+      "Gold": "金币: ",
+      "Time": "时间: "
+    }
+  },
+  "PersonButton": {
+    "CombatCapability": {
+      "CombatCapability": "人物当前战斗力: ",
+      "CurrentAttack": "当前攻击力: ",
+      "CurrentDefense": "当前防御力: ",
+      "CurrentSpeed": "当前速度: "
+    },
+    "PersonAttribute": {
+      "PersonAttribute": "人物当前属性",
+      "Strength": "力量: ",
+      "Defense": "防御: ",
+      "Speed": "速度: "
+    },
+    "PersonEquipment": {
+      "PersonEquipment": "人物当前装备",
+      "Unmount": "卸载",
+      "PersonEquipmentInfo01": "在家园的仓库中, 找到装备后装备",
+      "PersonWeapons": "武器: ",
+      "PersonHead": "头部: ",
+      "PersonArms": "手臂: ",
+      "PersonBody": "身体: ",
+      "PersonLegs": "腿部: ",
+      "PersonAccessory": "附件: "
+    },
+    "PersonSkill": {
+      "PersonSkill": "人物当前技能",
+      "PersonSkillInfo01": "在家园的仓库中, 找到技能后装备",
+      "PersonSkillNums": "可携带技能数量: ",
+      "Unmount": "卸载"
+    },
+    "RecordPoint": {
+      "RecordPoint": "记录点",
+      "GoTo5Floor": "回到5层记录点"
+    }
+  },
+  "HtScreen": {
+    "ButtonFrame": {
+      "Attack": "攻击",
+      "Defense": "防御",
+      "GoOut": "逃跑",
+      "GoOutToolTip": "时间: +1天",
+      "Open": "打开",
+      "GoAhead": "前进"
+    },
+    "EnemyInformationFrame": {
+      "EnemyHealth": "敌人健康: ",
+      "EnemyStatus": "敌人状态: ",
+      "EnemyAttack": "敌人攻击: ",
+      "EnemyDefense": "敌人防御: ",
+      "EnemySpeed": "敌人速度: ",
+      "EnemyFloor01Name": "你自己",
+      "EnemyFloor02Name": "绿色史莱姆",
+      "EnemyFloor03Name": "蓝色史莱姆",
+      "EnemyFloor04Name": "橙色史莱姆",
+      "EnemyFloor05Name": "红色史莱姆",
+      "EnemyFloor06Name": "黑狗",
+      "EnemyFloor07Name": "白狗",
+      "NotEnoughStatusORopned": "状态不足或宝箱已打开",
+      "Chests": "宝箱"
+    },
+    "AttackLogFrame": {
+      "Floor001": "一层",
+      "Floor001Message": "一层, 先打败你自己! 不要逃跑，否则只能开始新游戏",
+      "Floor001Hint1": "提示1: 双方速度一样. 玩家先攻击",
+      "Floor001Hint2": "提示2: 点击'逃跑', 游戏时间将会增加一天",
+      "Floor001Hint3": "提示3: 关注左上角, '健康' 和 '状态'",
+      "Floor001Hint4": "提示4: 努力爬塔，解锁更多功能",
+      "Floor002": "二层",
+      "Floor002Hint1": "提示1: 伤害 = 攻击 - 防御",
+      "Floor003": "三层",
+      "Floor003Hint1": "提示1: 如果状态< 50%, 人物属性 * 0.8",
+      "Floor004": "四层",
+      "Floor004Hint1": "提示1: 幻塔三层时的隐藏奖励拿到了吗？游戏只有一个存档，没拿到只能重新开始咯~",
+      "Floor005": "五层",
+      "Floor005Hint1": "提示1: 击败 Boss!",
+      "Floor005Hint2": "提示2: 胜利后，人物面板会产生一个记录点，后面的游戏中，你可以随时回到这个记录点",
+      "Floor006": "六层",
+      "Floor006Hint1": "提示1：防御技能在仓库, 使用前要先装备.",
+      "Floor006Hint2": "提示2：学院中，可以学习新的技能了",
+      "Floor006Hint3": "提示3：不要让你的状态低于50%",
+      "Floor007": "七层",
+      "Floor007Hint1": "提示1: 任何时候, 你可以使用所有的药水",
+      "Floor007Hint2": "提示2：学院中，可以提升人物健康和状态的上限"
+    },
+    "PersonWinFrame": {
+      "Award": "奖励: ",
+      "NextFloor": "进入战斗",
+      "Leave": "离开HT",
+      "Sell": "卖",
+      "NotSell": "不卖并放入仓库",
+      "Floor001Award": "1、开放家园系统(部分功能), 建议你回家睡一觉",
+      "Floor002Award1": "1、开放学校和商店系统(部分功能)",
+      "Floor002Award2": "2、金币: 20",
+      "Floor003Award1": "1、开放人物装备系统和商店系统(部分功能)",
+      "Floor003Award2": "2、武器: 新手剑",
+      "Floor003Award3": "您想以20g的价格卖出新手剑吗 ?",
+      "Floor004Award1": "1、您可以在商店买到一些装备",
+      "Floor004Award2": "2、金币: 20",
+      "Floor005Award1": "1、技能：防御",
+      "Floor005Award2": "2、金币: 10",
+      "Floor006Award1": "1、小型健康药水 *1",
+      "Floor006Award2": "2、小型状态药水 *1",
+      "Floor006Award3": "3、金币: 10",
+      "Floor007Chests1": "打开宝箱, 人物状态 -20. 或直接前进，你只有一次的选择机会",
+      "Floor007ChestsAward1": "初级强化石"
+    },
+    "PersonLoseFrame": {
+      "FloorLoseText1": "失败者, 离开 HT !  游戏时间将会增加一天.",
+      "FloorLoseText2": "欢迎下次再来!",
+      "FloorLoseText3": "记住, 恢复你的 '健康' and '状态' !"
+    },
+    "PersonAttacking": {
+      "PersonAttacking": "战斗中..."
+    },
+    "TurnBasedNum": {
+      "Round": "回合："
+    },
+    "endFrame": {
+      "infor1": "谢谢您购买游戏. ",
+      "infor2": "我们告诉您：您买的时这个游戏的未来",
+      "infor3": "HT 版本:1.2, 支持到7层",
+      "infor4": "至少一周或一个月, 我们会更新并增加一些功能"
+    }
+  },
+  "HomeButton": {
+    "BedRoomFrame": {
+      "FrameTitle": "卧室",
+      "Sleep": "睡觉",
+      "SleepToolTip1": "健康度恢复",
+      "SleepToolTip2": ", 状态回满，天数+1"
+    },
+    "StashRoomFrame": {
+      "FrameTitle": "仓库",
+      "Equip": "装备",
+      "Equiping": "已装备",
+      "ButtonWeapons": "武器",
+      "ButtonHead": "头部",
+      "ButtonArms": "手臂",
+      "ButtonBody": "身体",
+      "ButtonLegs": "腿部",
+      "ButtonSkills": "技能",
+      "ButtonPotions": "药水"
+    },
+    "WorkRoomFrame": {
+      "FrameTitle": "工作间"
+    }
+  },
+  "SchoolButton": {
+    "BaseTrainFrame": {
+      "FrameTitle": "基础训练",
+      "NotEnoughGold": "金币不足或超上限",
+      "ButtonStrengthTraining_Junior": "初级力量训练",
+      "ButtonStrengthTraining_Junior_ToolTip": "力量: +1, 花费: 10金, 时间: +1天, 当前上限: ",
+      "ButtonDefenseTraining_Junior": "初级防御训练",
+      "ButtonDefenseTraining_Junior_ToolTip": "防御: +1, 花费: 10金, 时间: +1天, 当前上限: ",
+      "JuniorStrengthAndDefenseLimits": "/10",
+      "ButtonSpeedTraining_Junior": "初级速度训练",
+      "ButtonSpeedTraining_Junior_ToolTip": "速度: +1, 花费: 30gold, 时间: +1天, 当前上限: ",
+      "JuniorSpeedLimits": "/5",
+      "ButtonHealthTraining_Junior": "初级人物健康训练",
+      "ButtonHealthTraining_Junior_ToolTip": "健康上限 +1, 花费：5金, 当前上限: ",
+      "ButtonStatusTraining_Junior": "初级人物状态训练",
+      "ButtonStatusTraining_Junior_ToolTip": "状态上限 +1, 花费：5金, 当前上限: ",
+      "JuniorHealthAndStatusLimits": "/100"
+    },
+    "SkillTrainFrame": {
+      "FrameTitle": "技能训练",
+      "ButtonLearn": "学习",
+      "NotEnoughGold": "金币不足",
+      "ButtonLearnHeavyAttack_ToolTip": "花费: 20金"
+    },
+    "CombatTrainFrame": {
+      "FrameTitle": "实战训练"
+    }
+  },
+  "ShopButton": {
+    "ShopBuyFrame": {
+      "FrameTitle": "买"
+    },
+    "ShopSellFrame": {
+      "FrameTitle": "卖"
+    },
+    "ShopWorkFrame": {
+      "FrameTitle": "打工",
+      "JuniorButtonWork": "初级打工",
+      "JuniorButtonWorkToolTip1": "状态 -20, 金币 +10, 时间 +1天",
+      "JuniorButtonWorkToolTip2": "状态不足 20"
+    }
+  },
+  "LogButton": {
+    "TimeRecord": "时间记录",
+    "GameHint": "游戏提示",
+    "EnemyInformation": "敌人信息",
+    "FloorMessage1": "通过 ",
+    "FloorMessage2": " 层, 花费了 ",
+    "FloorMessage3": " 天数"
+  },
+  "Weapons": {
+    "BeginnerSword": "新手剑"
+  },
+  "HeadEquip": {
+    "BeginnerHelmet": "新手头帽"
+  },
+  "ArmsEquip": {
+    "BeginnerBarcers": "新手护手"
+  },
+  "BodyEquip": {
+    "BeginnerBreastplate": "新手护甲"
+  },
+  "LegsEquip": {
+    "BeginnerKneepad": "新手护膝"
+  },
+  "Skills": {
+    "Defense": "防御",
+    "HeavyAttack": "重击"
+  },
+  "Potions": {
+    "DrinkButton": "喝",
+    "BuyAndSellGold": "买:10G, 卖:5G",
+    "SmallHealthPotion": "小型健康度药水",
+    "SmallHealthPotionToolTip": "战斗中: 健康 +10",
+    "SmallStatusPotion": "小型状态度药水",
+    "SmallStatusPotionToolTip": "战斗中: 状态 +10"
+  },
+  "EquipToolTip": {
+    "Weapons": {
+      "BeginnerSword": "攻击力 +1, 商店: 买: 20g, 卖: 10g"
+    },
+    "HeadEquip": {
+      "BeginnerHelmet": "防御 +1, , 商店: 买: 10g, 卖: 5g"
+    },
+    "ArmsEquip": {
+      "BeginnerBarcers": "防御 +1, , 商店: 买: 10g, 卖: 5g"
+    },
+    "BodyEquip": {
+      "BeginnerBreastplate": "防御 +2, , 商店: 买: 20g, 卖: 10g"
+    },
+    "LegsEquip": {
+      "BeginnerKneepad": "防御 +1, , 商店: 买: 10g, 卖: 5g"
+    }
+  },
+  "SkillsToolTip": {
+    "DefenseDes": "当前回合: 防御力 +2, 本次战斗: 速度 +1",
+    "DefenseCost": "人物状态：-20",
+    "HeavyAttackDes": "当前回合: 攻击力 +2",
+    "HeavyAttackCost": "人物状态：-20",
+    "PersonStatusNotEnough": "人物状态不足"
+  },
+  "AchievementsToolTip": {
+    "AchievementsFloor001": "通过一层，花费一天",
+    "AchievementsFloor002": "通过二层，花费两天",
+    "AchievementsFloor003": "通过三层，花费五天",
+    "AchievementsFloor004": "通过四层，花费八天",
+    "AchievementsFloor005": "通过五层，花费九天",
+    "AchievementsFloor006": "通过六层，花费十一天"
+  },
+  "HiddenReward": {
+    "HiddenReward": "隐藏奖励",
+    "Take": "获取",
+    "Drop": "丢弃",
+    "Floor3Text": "Wow~您在云朵中找到了20个金币"
+  }
+}

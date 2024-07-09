@@ -1,0 +1,290 @@
+{
+  "StartGame": "Start New Game",
+  "EndGame": "End Game",
+  "Continue": "Continue",
+  "Confirm": "Confirm",
+  "GameFloor": "F:",
+  "Return": "Return",
+  "TextPlayerName": "Hi huy，Your name：",
+  "GamePurpose": "Game Purpose",
+  "GamePurposeInfor": "Who can take the least days, Way up HT tower top?",
+  "MainHint1": "Way up HT tower, Unlock more features",
+  "MainMeum": {
+    "PersonButton": "Person",
+    "HomeButton": "Home",
+    "SchoolButton": "School",
+    "ShopButton": "Shop",
+    "HarvestButton": "Harvest",
+    "LogButton": "Log",
+    "AchievementsButton": "Achievements",
+    "ExitButton": "Exit",
+    "Tooltip": {
+      "Health": "Health",
+      "Status": "Status",
+      "Gold": "Gold: ",
+      "Time": "Time: "
+    }
+  },
+  "PersonButton": {
+    "CombatCapability": {
+      "CombatCapability": "Person Current Combat Capability: ",
+      "CurrentAttack": "Current Attack: ",
+      "CurrentDefense": "Current Defense: ",
+      "CurrentSpeed": "Current Speed: "
+    },
+    "PersonAttribute": {
+      "PersonAttribute": "Person Current Attribute",
+      "Strength": "Strength: ",
+      "Defense": "Defense: ",
+      "Speed": "Speed: "
+    },
+    "PersonEquipment": {
+      "PersonEquipment": "Person Current Equipment",
+      "Unmount": "Unmount",
+      "PersonEquipmentInfo01": "At home'StashRoom, find Equipment to equip",
+      "PersonWeapons": "Weapons: ",
+      "PersonHead": "Head: ",
+      "PersonArms": "Arms: ",
+      "PersonBody": "Body: ",
+      "PersonLegs": "Legs: ",
+      "PersonAccessory": "Accessory: "
+    },
+    "PersonSkill": {
+      "PersonSkill": "Person Current Skill",
+      "PersonSkillInfo01": "At home'StashRoom, find Skill to equip",
+      "PersonSkillNums": "Carried skill count: ",
+      "Unmount": "Unmount"
+    },
+    "RecordPoint": {
+      "RecordPoint": "Record Point",
+      "GoTo5Floor": "GoTo 5 Floor Record"
+    }
+  },
+  "HtScreen": {
+    "ButtonFrame": {
+      "Attack": "Attack",
+      "Defense": "Defense",
+      "GoOut": "Run Away",
+      "GoOutToolTip": "Time: +1Day",
+      "Open": "Open",
+      "GoAhead": "Go Ahead"
+    },
+    "EnemyInformationFrame": {
+      "EnemyHealth": "EnemyHealth: ",
+      "EnemyStatus": "EnemyStatus: ",
+      "EnemyAttack": "EnemyAttack: ",
+      "EnemyDefense": "EnemyDefense: ",
+      "EnemySpeed": "EnemySpeed: ",
+      "EnemyFloor01Name": "Yourself",
+      "EnemyFloor02Name": "Green Slime",
+      "EnemyFloor03Name": "Blue Slime",
+      "EnemyFloor04Name": "Orange Slime",
+      "EnemyFloor05Name": "Ren Slime",
+      "EnemyFloor06Name": "Black Dog",
+      "EnemyFloor07Name": "White Dog",
+      "NotEnoughStatusORopned": "Not Enough Status or opened",
+      "Chests": "Chests"
+    },
+    "AttackLogFrame": {
+      "Floor001": "One Floor",
+      "Floor001Message": "First Floor, Beat yourself first! If Run Away, Must New Game.'",
+      "Floor001Hint1": "Hint1: Both the speed is same. The player attack first",
+      "Floor001Hint2": "Hint2: Clicked'Run Away', Game Time will be add one day.",
+      "Floor001Hint3": "Hint3: Focus on top left, 'Healty' and 'Status'",
+      "Floor001Hint4": "Hint4: Way up HT tower, Unlock more features",
+      "Floor002": "Two Floor",
+      "Floor002Hint1": "Hint1: Damage = Attack - Defense",
+      "Floor003": "Three Floor",
+      "Floor003Hint1": "Hint1: if Status < 50%, PersonAttribute * 0.8",
+      "Floor004": "Four Floor",
+      "Floor004Hint1": "Hint1: Did you get the hidden reward from Level 3 of the tower? The game has only one save, if you don't get it, you can only start over",
+      "Floor005": "Five Floor",
+      "Floor005Hint1": "Hint1: Beat Boss!",
+      "Floor005Hint2": "Hint2: After victory, record point will appear on the person panel.You can return to this record point at any time in subsequent games.",
+      "Floor006": "Six Floor",
+      "Floor006Hint1": "Hint1: The Defense skill is in the warehouse. You must equip before you use it.",
+      "Floor006Hint2": "Hint2: In the school，can learn new skills.",
+      "Floor006Hint3": "Hint3：Don't let your status drop below 50%",
+      "Floor007": "Seven Floor",
+      "Floor007Hint1": "Hint1: Any Time, You can use all potions",
+      "Floor007Hint2": "Hint2：At School，You can learn Health and Status Limits"
+    },
+    "PersonWinFrame": {
+      "Award": "Award: ",
+      "NextFloor": "Start Combat",
+      "Leave": "Leave HT",
+      "Sell": "Sell",
+      "NotSell": "Not Sell and Put into Warehouse",
+      "Floor001Award": "1、Open Home System(partial function), Suggest you go home sleep",
+      "Floor002Award1": "1、Open School System and Shop System(partial function)",
+      "Floor002Award2": "2、Gold: 20",
+      "Floor003Award1": "1、Open Person Equipment System and Open Shop System(partial function)",
+      "Floor003Award2": "2、Weapons: Beginner sword",
+      "Floor003Award3": "Do want sell Beginner sword for 20g ?",
+      "Floor004Award1": "1、You can buy some equipments in the shop",
+      "Floor004Award2": "2、Gold: 20",
+      "Floor005Award1": "1、Skill：Defense",
+      "Floor005Award2": "2、Gold: 10",
+      "Floor006Award1": "1、Small Health Potion *1",
+      "Floor006Award2": "2、Small Status Potion *1",
+      "Floor006Award3": "3、Gold: 10",
+      "Floor007Chests1": "Open the Chests, Person Status -20. or Go ahead directly, You only get one chance to choose",
+      "Floor007ChestsAward1": "Primary strengthening stone"
+    },
+    "PersonLoseFrame": {
+      "FloorLoseText1": "Loser, Leave HT !  Game Time will be add one day.",
+      "FloorLoseText2": "Welcome come again!",
+      "FloorLoseText3": "Remeber, Restore your 'health' and 'status' !"
+    },
+    "PersonAttacking": {
+      "PersonAttacking": "Attacking..."
+    },
+    "TurnBasedNum": {
+      "Round": "Round："
+    },
+    "endFrame": {
+      "infor1": "Thank you buy the game. ",
+      "infor2": "We tell you: You're buy the future of this game",
+      "infor3": "HT Version:1.2, Only Support to 7 floor",
+      "infor4": "Least a week or month, we will update and add some feature."
+    }
+  },
+  "HomeButton": {
+    "BedRoomFrame": {
+      "FrameTitle": "Bed Room",
+      "Sleep": "Sleep",
+      "SleepToolTip1": "Health Recover",
+      "SleepToolTip2": ", Status Recover full，days + 1"
+    },
+    "StashRoomFrame": {
+      "FrameTitle": "Warehouse",
+      "Equip": "Equip",
+      "Equiping": "Equiping",
+      "ButtonWeapons": "weapons",
+      "ButtonHead": "Head",
+      "ButtonArms": "Arms",
+      "ButtonBody": "Body",
+      "ButtonLegs": "Legs",
+      "ButtonSkills": "Skills",
+      "ButtonPotions": "Potions"
+    },
+    "WorkRoomFrame": {
+      "FrameTitle": "Work Room"
+    }
+  },
+  "SchoolButton": {
+    "BaseTrainFrame": {
+      "FrameTitle": "Base Train",
+      "NotEnoughGold": "Not Enough Gold or upper limit",
+      "ButtonStrengthTraining_Junior": "Junior Strength Training",
+      "ButtonStrengthTraining_Junior_ToolTip": "Strength: +1, cost: 10gold, time: +1days, Current limits: ",
+      "ButtonDefenseTraining_Junior": "Junior Defense Training",
+      "ButtonDefenseTraining_Junior_ToolTip": "Defense: +1, cost: 10gold, time: +1days, Current limits: ",
+      "JuniorStrengthAndDefenseLimits": "/10",
+      "ButtonSpeedTraining_Junior": "Junior Speed Training",
+      "ButtonSpeedTraining_Junior_ToolTip": "Speed: +1, cost: 30gold, time: +1days, Current limits: ",
+      "JuniorSpeedLimits": "/5",
+      "ButtonHealthTraining_Junior": "Junior Health Training",
+      "ButtonHealthTraining_Junior_ToolTip": "HealthLimit +1, cost：5gold, Current limits: ",
+      "ButtonStatusTraining_Junior": "Junior Status Training",
+      "ButtonStatusTraining_Junior_ToolTip": "StatusLimit +1, cost：5gold, Current limits: ",
+      "JuniorHealthAndStatusLimits": "/100"
+    },
+    "SkillTrainFrame": {
+      "FrameTitle": "Skill Train",
+      "ButtonLearn": "Learn",
+      "NotEnoughGold": "Not Enough Gold",
+      "ButtonLearnHeavyAttack_ToolTip": "coat: 20gold"
+    },
+    "CombatTrainFrame": {
+      "FrameTitle": "Combat Train"
+    }
+  },
+  "ShopButton": {
+    "ShopBuyFrame": {
+      "FrameTitle": "Buy"
+    },
+    "ShopSellFrame": {
+      "FrameTitle": "Sell"
+    },
+    "ShopWorkFrame": {
+      "FrameTitle": "Work",
+      "JuniorButtonWork": "JuniorWork",
+      "JuniorButtonWorkToolTip1": "Status -20, Gole +10, Time +1day",
+      "JuniorButtonWorkToolTip2": "Status not enough 20"
+    }
+  },
+  "LogButton": {
+    "TimeRecord": "Time Record",
+    "GameHint": "Game Hint",
+    "EnemyInformation": "Enemy Information",
+    "FloorMessage1": "Pass ",
+    "FloorMessage2": " Floor, Use ",
+    "FloorMessage3": " Days"
+  },
+  "Weapons": {
+    "BeginnerSword": "Beginner Sword"
+  },
+  "HeadEquip": {
+    "BeginnerHelmet": "Beginner Helmet"
+  },
+  "ArmsEquip": {
+    "BeginnerBarcers": "Beginner Barces"
+  },
+  "BodyEquip": {
+    "BeginnerBreastplate": "Beginner Breastplate"
+  },
+  "LegsEquip": {
+    "BeginnerKneepad": "Beginner Kneepad"
+  },
+  "Skills": {
+    "Defense": "Defense",
+    "HeavyAttack": "HeavyAttack"
+  },
+  "Potions": {
+    "DrinkButton": "Drink",
+    "BuyAndSellGold": "Buy:10G, Sell:5G",
+    "SmallHealthPotion": "Small Health Potion",
+    "SmallHealthPotionToolTip": "Attacking: Health +10",
+    "SmallStatusPotion": "Small Status Potion",
+    "SmallStatusPotionToolTip": "Attacking: Status +10"
+  },
+  "EquipToolTip": {
+    "Weapons": {
+      "BeginnerSword": "Attack +1, Shop: buy: 20g, sell: 10g"
+    },
+    "HeadEquip": {
+      "BeginnerHelmet": "Defense +1, , Shop: buy: 10g, sell: 5g"
+    },
+    "ArmsEquip": {
+      "BeginnerBarcers": "Defense +1, , Shop: buy: 10g, sell: 5g"
+    },
+    "BodyEquip": {
+      "BeginnerBreastplate": "Defense +2, , Shop: buy: 20g, sell: 10g"
+    },
+    "LegsEquip": {
+      "BeginnerKneepad": "Defense +1, , Shop: buy: 10g, sell: 5g"
+    }
+  },
+  "SkillsToolTip": {
+    "DefenseDes": "Current Round: Defense +2, Current Battle: Speed +1",
+    "DefenseCost": "Person Status: -20",
+    "HeavyAttackDes": "Current Round: Attack + 2",
+    "HeavyAttackCost": "Person Status: -20",
+    "PersonStatusNotEnough": "Person Status Not Enough"
+  },
+  "AchievementsToolTip": {
+    "AchievementsFloor001": "Pass one floor，use one day",
+    "AchievementsFloor002": "Pass two floor，use two days",
+    "AchievementsFloor003": "Pass three floor，use five days",
+    "AchievementsFloor004": "Pass four floor，use eight days",
+    "AchievementsFloor005": "Pass five floor，use nine days",
+    "AchievementsFloor006": "Pass six floor，use eleven days"
+  },
+  "HiddenReward": {
+    "HiddenReward": "Hidden Reward",
+    "Take": "Take",
+    "Drop": "Drop",
+    "Floor3Text": "Wow~ You found 20 golds in the cloud"
+  }
+}

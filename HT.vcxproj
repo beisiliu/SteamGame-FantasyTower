@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{88d4e77d-b6c1-4f4b-a117-856a9cf1ee01}</ProjectGuid>
+    <RootNamespace>HT</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>D:\HT\SDL2_mixer-2.6.3\include;D:\HT\SDL2_ttf-2.20.2\include;D:\HT\SDL2_image-2.6.3\include;D:\HT\SDL2-2.28.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\HT\redistributable_bin\win64;D:\HT\SDL2_mixer-2.6.3\lib\x64;D:\HT\SDL2_ttf-2.20.2\lib\x64;D:\HT\SDL2_image-2.6.3\lib\x64;D:\HT\SDL2-2.28.0\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>D:\HT\SDL2_mixer-2.6.3\include;D:\HT\SDL2_ttf-2.20.2\include;D:\HT\SDL2_image-2.6.3\include;D:\HT\SDL2-2.28.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\HT\redistributable_bin\win64;D:\HT\SDL2_mixer-2.6.3\lib\x64;D:\HT\SDL2_ttf-2.20.2\lib\x64;D:\HT\SDL2_image-2.6.3\lib\x64;D:\HT\SDL2-2.28.0\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib;steam_api64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_ttf.lib;SDL2_image.lib;SDL2_mixer.lib;steam_api64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="include\AchievementsButton.cpp" />
+    <ClCompile Include="include\ArmEquip.cpp" />
+    <ClCompile Include="include\bodyEquip.cpp" />
+    <ClCompile Include="include\HeadEquip.cpp" />
+    <ClCompile Include="include\CalCombatKPI.cpp" />
+    <ClCompile Include="include\EnemyAttribute.cpp" />
+    <ClCompile Include="include\EquipmentToopTip.cpp" />
+    <ClCompile Include="include\Game.cpp" />
+    <ClCompile Include="include\HarvestButton.cpp" />
+    <ClCompile Include="include\HomeButton.cpp" />
+    <ClCompile Include="include\HtScreen.cpp" />
+    <ClCompile Include="include\imgui\imgui.cpp" />
+    <ClCompile Include="include\imgui\imgui_demo.cpp" />
+    <ClCompile Include="include\imgui\imgui_draw.cpp" />
+    <ClCompile Include="include\imgui\imgui_impl_sdl2.cpp" />
+    <ClCompile Include="include\imgui\imgui_impl_sdlrenderer2.cpp" />
+    <ClCompile Include="include\imgui\imgui_tables.cpp" />
+    <ClCompile Include="include\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="include\LegsEquip.cpp" />
+    <ClCompile Include="include\LogButton.cpp" />
+    <ClCompile Include="include\MainScreen.cpp" />
+    <ClCompile Include="include\PersonButton.cpp" />
+    <ClCompile Include="include\SchoolButton.cpp" />
+    <ClCompile Include="include\ShopButton.cpp" />
+    <ClCompile Include="include\UsualFunc.cpp" />
+    <ClCompile Include="include\StartScreen.cpp" />
+    <ClCompile Include="include\TextureManager.cpp" />
+    <ClCompile Include="include\Weapons.cpp" />
+    <ClCompile Include="include\WriteData.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="include\StreamAPIAchievements.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\AchievementsButton.h" />
+    <ClInclude Include="include\ArmEquip.h" />
+    <ClInclude Include="include\bodyEquip.h" />
+    <ClInclude Include="include\HeadEquip.h" />
+    <ClInclude Include="include\CalCombatKPI.h" />
+    <ClInclude Include="include\EnemyAttribute.h" />
+    <ClInclude Include="include\EquipmentToolTip.h" />
+    <ClInclude Include="include\Game.h" />
+    <ClInclude Include="include\HarvestButton.h" />
+    <ClInclude Include="include\HomeButton.h" />
+    <ClInclude Include="include\HtScreen.h" />
+    <ClInclude Include="include\imgui\imconfig.h" />
+    <ClInclude Include="include\imgui\imgui.h" />
+    <ClInclude Include="include\imgui\imgui_impl_sdl2.h" />
+    <ClInclude Include="include\imgui\imgui_impl_sdlrenderer2.h" />
+    <ClInclude Include="include\imgui\imgui_internal.h" />
+    <ClInclude Include="include\imgui\imstb_rectpack.h" />
+    <ClInclude Include="include\imgui\imstb_textedit.h" />
+    <ClInclude Include="include\imgui\imstb_truetype.h" />
+    <ClInclude Include="include\LegsEquip.h" />
+    <ClInclude Include="include\LogButton.h" />
+    <ClInclude Include="include\MainScreen.h" />
+    <ClInclude Include="include\nlohmann\json.hpp" />
+    <ClInclude Include="include\nlohmann\json_fwd.hpp" />
+    <ClInclude Include="include\PersonButton.h" />
+    <ClInclude Include="include\SchoolButton.h" />
+    <ClInclude Include="include\setting\Config.h" />
+    <ClInclude Include="include\ShopButton.h" />
+    <ClInclude Include="include\StartScreen.h" />
+    <ClInclude Include="include\TextureManager.h" />
+    <ClInclude Include="include\UsualFunc.h" />
+    <ClInclude Include="include\Weapons.h" />
+    <ClInclude Include="include\WriteData.h" />
+    <ClInclude Include="steam\isteamapps.h" />
+    <ClInclude Include="steam\isteamappticket.h" />
+    <ClInclude Include="steam\isteamclient.h" />
+    <ClInclude Include="steam\isteamcontroller.h" />
+    <ClInclude Include="steam\isteamdualsense.h" />
+    <ClInclude Include="steam\isteamfriends.h" />
+    <ClInclude Include="steam\isteamgamecoordinator.h" />
+    <ClInclude Include="steam\isteamgameserver.h" />
+    <ClInclude Include="steam\isteamgameserverstats.h" />
+    <ClInclude Include="steam\isteamhtmlsurface.h" />
+    <ClInclude Include="steam\isteamhttp.h" />
+    <ClInclude Include="steam\isteaminput.h" />
+    <ClInclude Include="steam\isteaminventory.h" />
+    <ClInclude Include="steam\isteammatchmaking.h" />
+    <ClInclude Include="steam\isteammusic.h" />
+    <ClInclude Include="steam\isteammusicremote.h" />
+    <ClInclude Include="steam\isteamnetworking.h" />
+    <ClInclude Include="steam\isteamnetworkingmessages.h" />
+    <ClInclude Include="steam\isteamnetworkingsockets.h" />
+    <ClInclude Include="steam\isteamnetworkingutils.h" />
+    <ClInclude Include="steam\isteamparentalsettings.h" />
+    <ClInclude Include="steam\isteamps3overlayrenderer.h" />
+    <ClInclude Include="steam\isteamremoteplay.h" />
+    <ClInclude Include="steam\isteamremotestorage.h" />
+    <ClInclude Include="steam\isteamscreenshots.h" />
+    <ClInclude Include="steam\isteamugc.h" />
+    <ClInclude Include="steam\isteamuser.h" />
+    <ClInclude Include="steam\isteamuserstats.h" />
+    <ClInclude Include="steam\isteamutils.h" />
+    <ClInclude Include="steam\isteamvideo.h" />
+    <ClInclude Include="steam\matchmakingtypes.h" />
+    <ClInclude Include="steam\steamclientpublic.h" />
+    <ClInclude Include="steam\steamencryptedappticket.h" />
+    <ClInclude Include="steam\steamhttpenums.h" />
+    <ClInclude Include="steam\steamnetworkingfakeip.h" />
+    <ClInclude Include="steam\steamnetworkingtypes.h" />
+    <ClInclude Include="steam\steamps3params.h" />
+    <ClInclude Include="steam\steamtypes.h" />
+    <ClInclude Include="steam\steamuniverse.h" />
+    <ClInclude Include="steam\steam_api.h" />
+    <ClInclude Include="steam\steam_api_common.h" />
+    <ClInclude Include="steam\steam_api_flat.h" />
+    <ClInclude Include="steam\steam_api_internal.h" />
+    <ClInclude Include="steam\steam_gameserver.h" />
+    <ClInclude Include="include\StreamAPIAchievements.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="information\版本说明.txt" />
+    <Text Include="steam_appid.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\steam\lib\win64\sdkencryptedappticket64.dll" />
+    <None Include="steam\lib\win64\sdkencryptedappticket64.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="include\steam\lib\win64\sdkencryptedappticket64.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="music\01.mp3" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
